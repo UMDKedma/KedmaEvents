@@ -12,10 +12,7 @@ https://raw.githubusercontent.com/UMDKedma/KedmaEvents/main/kedmalogo.jpeg
 First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
-[![Label](
-https://raw.githubusercontent.com/UMDKedma/KedmaEvents/main/kedmalogo.jpeg
-"Text 2")
-](https://umdkedma.wixsite.com/kedma/listserv) | Content in the second column
+Cell 1 | Content in the second column
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
