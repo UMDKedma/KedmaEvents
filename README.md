@@ -6,10 +6,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 [![](https://raw.githubusercontent.com/UMDKedma/KedmaEvents/main/kedmalogo.jpeg "Text 2")](https://umdkedma.wixsite.com/kedma/listserv)
 
-First Header | Second Header
+
 ------------ | -------------
 Content from cell 1 | Content from cell 2
-[![](https://raw.githubusercontent.com/UMDKedma/KedmaEvents/main/kedmalogo.jpeg "Text 2")](https://umdkedma.wixsite.com/kedma/listserv) | Content in the second column
+Text <br> [![](https://raw.githubusercontent.com/UMDKedma/KedmaEvents/main/kedmalogo.jpeg "Text 2")](https://umdkedma.wixsite.com/kedma/listserv) | Content in the second column
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
