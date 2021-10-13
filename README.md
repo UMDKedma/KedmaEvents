@@ -5,7 +5,7 @@ You can use the [editor on GitHub](https://github.com/UMDKedma/KedmaEvents/edit/
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 [![A click on the image links to its own URL.](
-https://i.stack.imgur.com/X14m7.png
+https://github.com/UMDKedma/KedmaEvents/blob/main/kedmalogo.jpeg
 "A click on the image links to its own URL (inline-style).")
 ](https://i.stack.imgur.com/X14m7.png)
 
