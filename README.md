@@ -4,15 +4,12 @@ You can use the [editor on GitHub](https://github.com/UMDKedma/KedmaEvents/edit/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-[![Label](
-https://raw.githubusercontent.com/UMDKedma/KedmaEvents/main/kedmalogo.jpeg
-"Text 2")
-](https://umdkedma.wixsite.com/kedma/listserv)
+[![](https://raw.githubusercontent.com/UMDKedma/KedmaEvents/main/kedmalogo.jpeg "Text 2")](https://umdkedma.wixsite.com/kedma/listserv)
 
 First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
-Cell 1 | Content in the second column
+[![](https://raw.githubusercontent.com/UMDKedma/KedmaEvents/main/kedmalogo.jpeg "Text 2")](https://umdkedma.wixsite.com/kedma/listserv) | Content in the second column
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
