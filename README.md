@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 [![](https://raw.githubusercontent.com/UMDKedma/KedmaEvents/main/kedmalogo.jpeg "Text 2")](https://umdkedma.wixsite.com/kedma/listserv)
 
-
+| Header | Header|
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Text <br> [![](https://raw.githubusercontent.com/UMDKedma/KedmaEvents/main/kedmalogo.jpeg "Text 2")](https://umdkedma.wixsite.com/kedma/listserv) | Content in the second column
