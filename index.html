@@ -12,7 +12,7 @@
   padding: 15px;
 }
 
-.grid-container > div {
+.event {
   border-style: solid;
   border-color: #d03d38;
   border-radius: 25px;
@@ -22,17 +22,45 @@
   padding: 10px;
   font-size: 16px;
   font-family: "Avenir";
+  box-shadow: 0 7px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
+}
+.event:hover {
+	filter: brightness(80%);
 }
 .title {
 	color: #d03d38;
-	text-weight: bold;
+	font-weight: bold;
     font-size: 20px;
 	text-transform: uppercase;
 }
 
+
 </style>
 </head>
+<body>
+
+<div class="grid-container">
+  <div class="event" onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSfEab__ANRML9XHoLFYXAHhOJMmiM4AJIRmxT_TETgr2yq17A/viewform';">
+  	<div class="title"> Moti's Order</div>
+    <p>Click here to order Moti's!</p>
+  </div>
+  <div class="event" onclick="location.href='https://ter.ps/NHTB';">
+  	<div class="title"> NHTB </div>
+    <p>Sign up for NHTB!</p>
+  </div>
+  <div class="event">3</div>  
+  <div class="event">4</div>
+  <div class="event">5</div>
+  <div class="event">6</div>
+  <div class="event">7</div>
+  <div class="event">8</div>  
+</div>
+
+</body>
+</html>
+
+
 <body>
 
 <div class="grid-container">
