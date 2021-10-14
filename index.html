@@ -1,107 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-* {
-  box-sizing: border-box;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  grid-auto-flow: row;
+  grid-gap: 15px;
+  background-color: #FFFFFF;
+  padding: 15px;
 }
 
-.eventName {
-  text-align: center;
-}
-/* Create two equal columns that floats next to each other */
-.column {
-  width: 48%;
-  padding: 20px;
-  /*height: 400px; */
-  background-color:#ffd4f6;
-  background-clip: padding-box;
+.grid-container > div {
+  border-style: solid;
+  border-color: #d03d38;
   border-radius: 25px;
-  text-align: left;
-  font-family: "Arial"
-}
-.left {
-	float: left;
-}
-.right {
-	float: right;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  padding: 5px;
-  clear: both;
-}
-
-.button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
+  border-width: 5px;
+  background-color: #FFFFFF;
   text-align: center;
-  text-weight: bold;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 10px;
+  padding: 10px;
   font-size: 16px;
-  font-family: "Arial"
-  margin: 4px 2px;
+  font-family: "Avenir";
   cursor: pointer;
-  background-color: #fc0366;
+}
+.title {
+	color: #d03d38;
+	text-weight: bold;
+    font-size: 20px;
+	text-transform: uppercase;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .column {
-    width: 100%;
-  }
-}
 </style>
 </head>
 <body>
 
-<div class="row">
-  <div class="column left">
-    <div class="eventName">
-  		<h2>Moti's Order</h2>
-	</div>
-    <p>This form contains all the information you need to order food on Moti's website and have it delivered to Hillel.</p>
-    <div class="eventName">
-  		<a href="https://umdkedma.wixsite.com/kedma/listserv" class="button">Get food!</a>
-	</div>
+<h1>Grid Lines</h1>
+
+<div class="grid-container">
+  <div class="event" onclick="location.href='https://umdkedma.wixsite.com/kedma/the-gabbinate';" >
+  	<div class="title"> Moti's </div>
+    <p>Click here to order Moti's!</p>
   </div>
-  <div class="column right">
-  	<div class="eventName">
-  		<h2>National Hillel Torah Bowl</h2>
-	</div>
-    <p>Sign up for NHTB</p>
-    <div class="eventName">
-  		<a href="https://umdkedma.wixsite.com/kedma/listserv" class="button">Get food!</a>
-	</div>
+  <div class="event">
+  	<div class="title"> Moti's </div>
+    <p>Example example example example example example</p>
   </div>
+  <div class="event">3</div>  
+  <div class="event">4</div>
+  <div class="event">5</div>
+  <div class="event">6</div>
+  <div class="event">7</div>
+  <div class="event">8</div>  
 </div>
-<div class="row">
-  <div class="column left">
-    <div class="eventName">
-  		<h2>National Hillel Torah Bowl</h2>
-	</div>
-    <p>Some text..</p>
-    <div class="eventName">
-  		<a href="https://umdkedma.wixsite.com/kedma/listserv" class="button">Get food!</a>
-	</div>
-  </div>
-  <div class="column right">
-    <div class="eventName">
-  		<h2>National Hillel Torah Bowl</h2>
-	</div>
-    <p>Some text..</p>
-    <div class="eventName">
-  		<a href="https://umdkedma.wixsite.com/kedma/listserv" class="button">Get food!</a>
-	</div>
-  </div>
-</div>
+
+<p>You can refer to line numbers when placing grid items.</p>
 
 </body>
 </html>
